@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Navbar -->
+     <nav>
+        <div class="left">
+            <a href="/">Dagim Demeke</a>
+        </div>
+        <div class="right">
+            <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+            <a href="www.linkedin.com/in/dagim-demeke-b513a725b" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>   
+                <span>Linkedin</span>
+            </a>
+            <a href="mailto:dagim1077@gmail.com">
+                <i class="fa-solid fa-envelope"></i>  
+                <span>Email</span>
+            </a>
+        </div>
+     </nav>
+
+    <main>
+        <!-- Section 1: Hero -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi, I'm Dagim 👋🏽</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem iste eos eius neque possimus repudiandae totam labore reprehenderit tempore, similique rem quia atque aliquam tempora ratione quae deserunt expedita recusandae iusto, distinctio porro sunt. Labore deserunt obcaecati veritatis rem, vero voluptas repellendus ex cum in mollitia nobis iure optio ipsa, consectetur voluptatem similique magni ipsam?</p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#testimony">
+                        <i class="fa-solid fa-pen"></i>
+                        <span>Testimony</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+            <div class="headshot">
+                <img src="/images/Dagim1.png" alt="Dagim's headshot">
+
+            </div>
+        </section>
+
+        <!-- Section 2: Skills -->
+        <section id="skills" class="skills-section">
+            <div class="text">
+                <h2>Skills</h2>
+                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro impedit animi fuga quod quisquam, dolore inventore vitae mollitia, odit dolores, earum error facere quidem ex! Nulla natus iste delectus corrupti.
+                </div>
+                <div class="cells">
+                    <div class="cell">
+                        <img src="images/html-logo.webp" alt="">
+                        <span>HTML</span>
+                    </div>
+                    <div class="cell">
+                        <img src="/images/css-logo.webp" alt="">
+                        <span>CSS</span>
+                    </div>
+                    <div class="cell">
+                        <img src="/images/javascript-logo.webp" alt="">
+                        <span>Javascript</span>
+                    </div>
+                    <div class="cell">
+                        <img src="/images/node-logo.webp" alt="">
+                        <span>Node.js</span>
+                    </div>
+                    <div class="cell">
+                        <img src="images/react-logo.webp" alt="">
+                        <span>React.js</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Testimony -->
+        <section id="testimony" class="testimony-section">
+            <h2>Testimony</h2>
+            <div class="group">
+                <div class="testimony-details">
+                    <img src="images/testimony-headshot.jpeg" alt="testimony-headshot"> 
+                    <p>John Doe</p>
+                    <p>Lorem ipsum dolor.</p>
+                </div>
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab unde voluptates temporibus. Voluptas amet quis libero labore ad, quasi adipisci iure nulla autem beatae corporis ea nemo, dolores, debitis voluptatum!
+                </div>
+        </div>
+        </section>
+
+        <!-- Section 4: Contact -->
+        <section id="contact" class="contact-section">
+            <h2>Content</h2>
+            <div class="group">
+                <div class="text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis quasi eius illum officiis sequi commodi modi obcaecati tempore ab rem dicta, illo velit qui maiores nam cumque, praesentium adipisci accusantium dignissimos ipsum esse reprehenderit? Quis perspiciatis officia quia, quisquam dolor rerum provident, sapiente iusto enim illum est ea consequatur accusamus.
+                </div>
+                <div class="contact-details">
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                    <label for="email">Email</label>
+                    <input type="text" id="email">
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+                    <button type="submit">Send Message</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
