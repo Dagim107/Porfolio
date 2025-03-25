@@ -116,19 +116,23 @@
 
         <!-- Section 4: Contact -->
         <section id="contact" class="contact-section">
-            <h2>Content</h2>
+            <h2>Contact Me!</h2>
             <div class="group">
                 <div class="text">
                     Have a project in mind or want to chat? I’d love to hear from you! Feel free to reach out
                 </div>
                 <div class="contact-details">
-                    <label for="name">Name</label>
-                    <input type="text" id="name">
-                    <label for="email">Email</label>
-                    <input type="text" id="email">
-                    <label for="message">Message</label>
-                    <textarea id="message" cols="30" rows="10"></textarea>
-                    <button type="submit">Send Message</button>
+                    <form action="https://api.web3forms.com/submit" method="POST" class="contact-details">
+                        <input type="hidden" name="access_key" value="b0cf9d50-6b68-4a63-9dc8-0ca17bb5f579">
+                        <label for="name">Name</label>
+                        <input name="name" type="text" id="name">
+                        <label for="email">Email</label>
+                        <input name="email" type="text" id="email">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                    
                 </div>
             </div>
         </section>
