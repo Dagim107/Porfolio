@@ -155,35 +155,43 @@ nav .right a span {
     border-radius: 2px;
 }
 
-/* section 3 */
+/* projects */
 
-.testimony-section {
+.project-section {
     padding: 0 50px;
     margin-bottom: 100px;
 }
 
-.testimony-section h2 {
+.project-section h2 {
+    text-align: center;
     font-size: 35px;
-    margin-bottom: 30px;
+
 }
 
-.testimony-section .group {
+.project-section .group {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 50px;
+    margin-top: 20px;
 }
 
-.testimony-section .group .testimony-details {
+.project-section .group .title {
+    color: var(--text-color);
+    text-align: center;
+}
+
+.project-section .group .project-section {
     flex: 2;
     text-align: center;
 }
 
-.testimony-section .group .text {
+.project-section .group .text {
     flex: 8;
 }
 
 
-.testimony-section .group .testimony-details img {
+.project-section .group .project-details img {
     width: 200px; 
     aspect-ratio: 1/1;
     border-radius: 50%;
@@ -191,11 +199,11 @@ nav .right a span {
     margin-bottom: 10px;
 }
 
-.testimony-section .group .testimony-details p {
+.project-section .group .project-details p {
     font-weight: 600;
 }
 
-.testimony-section .group .testimony-details p:last-child {
+.project-section .group .project-details p:last-child {
     font-weight: normal;
 }
 
@@ -273,11 +281,11 @@ nav .right a span {
 
     /* Section 3 */
 
-    .testimony-section {
+    .project-section {
         text-align: center;
     }
 
-    .testimony-section .group {
+    .project-section .group {
         flex-direction: column;
     }
 
