@@ -100,7 +100,7 @@ nav .right a span {
 }
 
 
-.hero-section .headshot{
+.hero-section .headshot {
     flex: 2;
     display: flex;
     justify-content: right;
@@ -192,21 +192,16 @@ nav .right a span {
     flex: 8;
 }
 
-
-.project-section .group .project-details img {
-    width: 200px; 
-    aspect-ratio: 1/1;
-    border-radius: 50%;
+.project-section .group img {
     object-fit: cover;
-    margin-bottom: 10px;
+    height: 500px;
+    width: 350px;
+    border-radius: 5px;
 }
 
-.project-section .group .project-details p {
+
+.project-section .group  p {
     font-weight: 600;
-}
-
-.project-section .group .project-details p:last-child {
-    font-weight: normal;
 }
 
 /* Section 4 */
@@ -269,6 +264,9 @@ nav .right a span {
 @media (max-width: 850px) {
     .hero-section .text h2 {
         font-size: 35px;
+    }
+    .contact-section .group {
+        flex-direction: column;
     }
 }
 
